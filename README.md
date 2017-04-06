@@ -25,7 +25,7 @@ are not avoided, Problem is specified in PROBLEM.html
 
 <a name="installation">
 
-## Installation
+### Installation
 
 Just execute in console
 
