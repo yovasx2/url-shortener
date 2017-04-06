@@ -29,7 +29,7 @@ are not avoided, Problem is specified in PROBLEM.html
 
 Just execute in console
 
-  $ bundle install
+    $ bundle install
 
 <a name="requirements"/>
 
@@ -50,23 +50,25 @@ In order to execute this project you need to install:
 
 1. Clone the repo
 
-      $ git clone https://github.com/yovasx2/url-shortener
+       $ git clone https://github.com/yovasx2/url-shortener
 
 2. Move into it and install dependencies
 
-      $ cd url-shortener
+       $ cd url-shortener
 
 3. Execute
 
-      $ rails server
+       $ rails server
 
-Two roots are available:
+Two routes are available:
 
 * Short URL:
-http://localhost:3000/shorten?url=https://example.com
+
+  http://localhost:3000/shorten?url=https://example.com
 
 * Enlarge URL (automatic redirection to URL):
-http://localhost:3000/d5c49f
+
+  http://localhost:3000/d5c49f
 
 <a name="contribute"/>
 
