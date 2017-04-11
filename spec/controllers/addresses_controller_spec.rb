@@ -20,19 +20,19 @@ RSpec.describe AddressesController, type: :controller do
     end
   end
 
-  describe 'POST #shrten' do
+  describe 'POST #shorten' do
     it do
       should route(:post, '/shorten')
         .to(controller: :addresses, action: :shorten)
     end
 
     it 'returns http success' do
-      get :shorten, url: 'http://google.com'
+      post :shorten, url: 'http://google.com'
       expect(response).to have_http_status(:success)
     end
 
     it 'returns http unprocessable entity' do
-      get :shorten, url: "http://#{'a'*65_535}"
+      post :shorten, url: "http://#{'a'*65_535}"
       expect(response).to have_http_status(:unprocessable_entity)
     end
   end
