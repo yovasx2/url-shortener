@@ -20,7 +20,7 @@ RSpec.describe AddressesController, type: :controller do
     end
   end
 
-  describe 'POST #enlarge' do
+  describe 'POST #shrten' do
     it do
       should route(:post, '/shorten')
         .to(controller: :addresses, action: :shorten)
