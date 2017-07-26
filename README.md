@@ -1,5 +1,7 @@
 # URL shortener
 
+[![Build Status](https://www.travis-ci.org/yovasx2/url-shortener.svg?branch=master)](https://www.travis-ci.org/yovasx2/url-shortener)
+
 ### Content
 
 * [Description](#description)
